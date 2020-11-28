@@ -20,7 +20,8 @@ public class A11YTester {
 			e.printStackTrace();
 		}
 		
-		System.setProperty("webdriver.chrome.driver", "F://ChromeDriver//chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "F://ChromeDriver//chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./src/main/resources/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get(pageURL);
